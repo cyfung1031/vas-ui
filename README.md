@@ -17,6 +17,10 @@ Just clone the files to your project folder and use.
 * All Coding with `.vue` and `<script setup>` (`<script setup lang="ts">`)
 * Under [MIT License](https://raw.githubusercontent.com/cyfung1031/vas-ui/main/LICENSE) - free to edit and distribute for both commerical and open source projects
 
+## Remarks for VasUI
+* I am lazy with typescript so there are many things using `any`. 
+* If you have time you can change the **anyscript** to the true **typescript**.
+
 ## VasUI Highlights
 * You can use them in any Vue Projects
 
