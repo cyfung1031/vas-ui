@@ -54,7 +54,9 @@ Just clone the files to your project folder and use.
 [SFC Playground - Example 1](https://sfc.vuejs.org/#eyJBcHAudnVlIjoiPHNjcmlwdCBzZXR1cD5cbiAgaW1wb3J0IHsgcmVmLCByZWFjdGl2ZSB9IGZyb20gJ3Z1ZSdcbiAgaW1wb3J0IENvbXAxIGZyb20gJy4vQ29tcDEudnVlJ1xuICBpbXBvcnQgQ29tcDIgZnJvbSAnLi9Db21wMi52dWUnXG5cbiAgY29uc3QgaW5wdXRWYWx1ZSA9IHJlZignSGVsbG8gV29ybGQhJylcbiAgY29uc3QgY29sb3IgPSByZWYoMClcbiAgY29uc3QgdmFzID0gcmVhY3RpdmUoe1xuICAgIGlucHV0VmFsdWUsXG4gICAgY29sb3JcbiAgfSlcblxuPC9zY3JpcHQ+XG5cbjx0ZW1wbGF0ZT5cbiAgPENvbXAxIDp2YXM9XCJ2YXNcIj48L0NvbXAxPlxuICA8Q29tcDIgOnZhcz1cInZhc1wiPjwvQ29tcDI+XG48L3RlbXBsYXRlPiIsImltcG9ydC1tYXAuanNvbiI6IntcbiAgXCJpbXBvcnRzXCI6IHtcbiAgICBcInZ1ZVwiOiBcImh0dHBzOi8vc2ZjLnZ1ZWpzLm9yZy92dWUucnVudGltZS5lc20tYnJvd3Nlci5qc1wiXG4gIH1cbn0iLCJDb21wMS52dWUiOiI8dGVtcGxhdGU+XG5cdDxpbnB1dCBcbiAgICAgICAgIHYtbW9kZWw9XCJ2YXMuaW5wdXRWYWx1ZVwiXG4gICAgICAgICA6Y2xhc3M9XCJ7J3JlZCc6IHZhcy5jb2xvcj09MCwgJ2JsdWUnOiB2YXMuY29sb3I9PTF9XCJcbiAgICAgICAvPlxuPC90ZW1wbGF0ZT5cbjxzY3JpcHQgc2V0dXA+XG4gIGltcG9ydCB7IHJlZiwgcmVhY3RpdmUsIGRlZmluZVByb3BzIH0gZnJvbSAndnVlJ1xuICBjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzKHtcbiAgICB2YXM6IHtcbiAgICAgIHJlcXVpcmVkOnRydWVcbiAgICB9XG4gIH0pXG4gIGNvbnN0IHZhcyA9IHByb3BzLnZhc1xuPC9zY3JpcHQ+XG48c3R5bGU+XG4gIC5yZWQge1xuICAgIGNvbG9yOiByZWRcbiAgfVxuICAuYmx1ZSB7XG4gICAgY29sb3I6IGJsdWVcbiAgfVxuPC9zdHlsZT4iLCJDb21wMi52dWUiOiI8dGVtcGxhdGU+XG4gIDxkaXY+bGFzdE1lc3NhZ2U6IHt7IGxhc3RNZXNzYWdlIH19PC9kaXY+XG4gIDxkaXY+bmV3TWVzc2FnZToge3sgbmV3TWVzc2FnZSB9fTwvZGl2PlxuICA8YnV0dG9uIEBjbGljaz1cInZhcy5jb2xvciA9ICh2YXMuY29sb3IgKyAxKSUyXCI+XG4gICAgQ2hhbmdlIENvbG9yXG4gIDwvYnV0dG9uPlxuPC90ZW1wbGF0ZT5cbjxzY3JpcHQgc2V0dXA+XG4gIGltcG9ydCB7IHJlZiwgcmVhY3RpdmUsIGRlZmluZVByb3BzLCB3YXRjaCB9IGZyb20gJ3Z1ZSdcbiAgY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wcyh7XG4gICAgdmFzOiB7XG4gICAgICByZXF1aXJlZDp0cnVlXG4gICAgfVxuICB9KVxuICBjb25zdCB2YXMgPSBwcm9wcy52YXNcbiAgY29uc3QgbGFzdE1lc3NhZ2UgPSByZWYobnVsbClcbiAgY29uc3QgbmV3TWVzc2FnZSA9IHJlZihudWxsKVxuICB3YXRjaCgoKT0+dmFzLmlucHV0VmFsdWUsIChjU3RhdGUsIHBTdGF0ZSk9PntcbiAgICBsYXN0TWVzc2FnZS52YWx1ZSA9IHBTdGF0ZVxuICAgIG5ld01lc3NhZ2UudmFsdWUgPSBjU3RhdGVcbiAgfSlcbjwvc2NyaXB0PiJ9)
 
 * App.vue
+
 ```vue
+
 <script setup>
   import { ref, reactive } from 'vue'
   import Comp1 from './Comp1.vue'
@@ -73,10 +75,13 @@ Just clone the files to your project folder and use.
   <Comp1 :vas="vas"></Comp1>
   <Comp2 :vas="vas"></Comp2>
 </template>
+
 ```
 
 * Comp1.vue
+
 ```vue
+
 <template>
 	<input 
          v-model="vas.inputValue"
@@ -100,10 +105,13 @@ Just clone the files to your project folder and use.
     color: blue
   }
 </style>
+
 ```
 
 * Comp2.vue
+
 ```vue
+
 <template>
   <div>lastMessage: {{ lastMessage }}</div>
   <div>newMessage: {{ newMessage }}</div>
@@ -126,4 +134,5 @@ Just clone the files to your project folder and use.
     newMessage.value = cState
   })
 </script>
+
 ```
