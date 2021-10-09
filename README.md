@@ -14,6 +14,7 @@ Just clone the files to your project folder and use.
 * I want different component styles (Vuesax, PrimeVue, Vertify, Quasar, ElementUI, ...)
 * I want FULL customizability - Just edit the VasUI files
 * [Vue 3](https://v3.vuejs.org/) based - fast, typescript supported, for both small and large scale application development
+* All Coding with `.vue` and `<script setup>` (`<script setup lang="ts">`)
 
 ## VasUI Highlights
 * You can use them in any Vue Projects
