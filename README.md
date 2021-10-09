@@ -9,6 +9,13 @@ Just clone the files to your project folder and use.
 * Please use disucssion to express
 * Please make the better components using Pull Requests
 
+### This is powered by [Vitesse](https://github.com/antfu/vitesse)
+* **Vitesse** is a great template developed by [Anthony Fu](https://github.com/antfu)
+* Using Vite2, WindiCSS, Vite-SSG, ... etc
+
+### Suggested Extensions
+* TBC
+
 ## Why VasUI
 * I do not want to use any framework CLI (Quasar Framework)
 * I want different component styles (Vuesax, PrimeVue, Vertify, Quasar, ElementUI, ...)
