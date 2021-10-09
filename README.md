@@ -11,7 +11,7 @@ Just clone the files to your project folder and use.
 
 ### This is powered by [Vitesse](https://github.com/antfu/vitesse)
 * **Vitesse** is a great template developed by [Anthony Fu](https://github.com/antfu)
-* Using Vite2, WindiCSS, Vite-SSG, ... etc
+* Using Vite2, WindiCSS, Vite-SSG, PostCSS, ... etc
 
 ### Suggested Extensions
 * TBC
