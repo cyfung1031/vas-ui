@@ -140,8 +140,12 @@ Just clone the files to your project folder and use.
 ### Code Example #2
 
 ```vue
+
+<script setup>
 const $vasScroll = useVasScroll()
 watch($vasScroll.onScroll,()=>{
   console.log('scrolled')
 })
+</script>
+
 ```
