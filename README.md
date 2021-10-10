@@ -136,3 +136,12 @@ Just clone the files to your project folder and use.
 </script>
 
 ```
+
+### Code Example #2
+
+```
+const $vasScroll = useVasScroll()
+watch($vasScroll.onScroll,()=>{
+  console.log('scrolled')
+})
+```
